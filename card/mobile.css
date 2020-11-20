@@ -1,0 +1,12 @@
+.row .col {
+    width: 100%;
+}
+
+.card__content__btn--active {
+    border: 1px solid green;
+    color: green;
+}
+
+.col:nth-child(2) .card {
+    display: none;
+}

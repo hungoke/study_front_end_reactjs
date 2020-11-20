@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item-active {
+    background: #009fe1;
+}
+
+ul {
+    list-style: none;
+}
+.menu {
+    display: flex;
+    width: 600px;
+    margin: 0 auto;
+    list-style: none;
+    margin-top: 20px;
+    color: #fff;
+    background: #24354b;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu > li {
+    border-right: 1px dotted #fff;
+    padding: 10px 30px;
+    position: relative;
+ 
+}
+
+.menu > li > ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #385671;
+    width: 150px;
+    display: none;
+}
+.menu > li:hover {
+    background: #009fe1;
+}
+.menu > li:hover > ul {
+    display: block;
+}
+
+.menu > li > ul > li {
+    padding: 10px 20px ;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.menu > li > ul > li:not(:last-child) {
+    border-bottom: 1px dotted #fff;
+}
+.menu > li > ul > li:hover {
+    background: #009fe1;
+}
+
+.menu > li > ul > li > ul {
+    position: absolute;
+    left: 100%;
+    top: 0px;
+    background: #567987;
+    width: 150px;
+    display: none;
+}
+
+.menu > li > ul > li:hover > ul {
+    display: block;
+}
+
+.menu > li > ul > li > ul > li {
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.menu > li > ul > li > ul >li:not(:last-child) {
+    border-bottom: 1px dotted #fff;
+}
+.menu > li > ul > li > ul > li:hover {
+    background: #009fe1;
+}
