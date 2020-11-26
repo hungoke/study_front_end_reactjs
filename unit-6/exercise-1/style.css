@@ -39,7 +39,7 @@
     width: 35%;
     height: auto;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
 }
 
 .card .card__content {
@@ -79,7 +79,7 @@
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
 .card .card__thumb:hover p {
