@@ -320,5 +320,10 @@ button.send {
 }
 
 .icon--send i {
+    cursor: pointer;
     color: gray;
+}
+
+input[type=file] {
+    display: none;
 }

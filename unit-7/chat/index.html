@@ -197,9 +197,11 @@
             <div class="wrap__col-8__input">
                 <textarea name="message-to-send" id="message-to-send" placeholder ="Type your message" rows="3"></textarea>
                 <div class="icon--send">
-                    <i class="fa fa-file"></i> &nbsp;&nbsp;&nbsp;
-                    <i class="far fa-file-image"></i>
-                    <button class="send" type="submit">Send</button>
+                    <label for="file-upload"><i class="fa fa-file"></i>&nbsp;&nbsp;&nbsp;</label>
+                    <input type="file" name="" id="file-upload">
+                    <label for="image-upload"><i class="far fa-file-image"></i></label>
+                    <input type="file" name="" id="image-upload" accept="image/x-png,image/gif,image/jpeg">
+                    <button class="send" type="button">Send</button>
                 </div>
             </div>
         </div>
