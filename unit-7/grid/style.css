@@ -1,0 +1,73 @@
+body {
+    background: white;
+}
+.child {
+    max-width: 900px;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 40px auto;
+    display: grid;
+    grid-gap: 5px;
+    background: #000000e0;
+}
+
+.child div {
+    padding: 45px;
+    border-radius: 6px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.child :nth-child(odd) {
+    background: #424242;
+}
+
+.child :nth-child(even) {
+    background: #313131;
+}
+
+.item3 {
+    grid-column: 3 / span 3;
+    grid-row: 1 / span 4;
+}
+
+.item5 {
+    grid-column: 1 / span 2;
+    grid-row: 2/ span 2;
+}
+
+.item10 {
+    grid-column: 1 / span 2;
+    grid-row: 4 / span 2;
+}
+
+.item13 {
+    grid-column: 3 / span 2;
+    grid-row: 5 / span 2;
+}
+
+.item17 {
+    grid-column: 5 / span 3;
+    grid-row: 6 / span 4;
+}
+
+.item21 {
+    grid-column: 1 / span 2;
+    grid-row: 7 / span 2;
+}
+
+.item26 {
+    grid-column: 1 / span 3;
+    grid-row: 9 / span 4;
+}
+
+.item40 {
+    grid-column: 1 / span 3;
+    grid-row: 13 / span 4;
+}
+
+.item45 {
+    grid-column: 4 / span 3;
+    grid-row: 14 / span 4;
+}
