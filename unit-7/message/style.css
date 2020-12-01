@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #c9db;
+}
+
+.chat-box {
+    width: 600px;
+    height: 100vh;
+    margin: 0 auto;
+    background: #ddd;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chat-box__users {
+    width: 40%;
+    height: 100%;
+    background: #454753;
+    display: flex;
+}
+
+.chat-box__message {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-box__message__user-info {
+    height: 70px;
+    width: 100%;
+    border-bottom: 2px solid #fff;
+}
+
+.chat-box__message__content {
+    width: 100%;
+    height: calc(100% - 212px);
+    border-bottom: 2px solid #fff;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+
+.chat-box__message__content__message {
+    width: 100%;
+    height: 100px;
+}
+
+.chat-box__message__content__message .user-info {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.chat-box__message__content__message .user-info span[class*="online-status"] {
+    width: 12px;
+    height: 12px;
+    margin-top: 15px;
+    background: red;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.message {
+    height: 80px;
+    width: 100%;
+    background: green;
+    border-radius: 5px;
+    position: relative;
+}
+
+.message::before {
+    content: '';
+    position: absolute;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+
+}
+
+.chat-box__message__form {
+    width: 100%;
+    height: 140px;
+}
