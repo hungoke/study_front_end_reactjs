@@ -1,0 +1,172 @@
+ * {
+    margin: 0px;
+    padding: 0px;
+}
+
+[div*="col"] {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 0;
+}
+
+.container-fluid-header {
+    background: #4e5366;
+}
+
+.container-fluid-body {
+    background: #575b74;
+}
+
+.logo-menu{
+    background: #4e5366;
+    height: 100px;
+    width: 100%;
+}
+
+.logo-sub {
+    color: #b1b4c3;
+    border-left: 1px solid #b1b4c3;
+}
+
+.container-header a:hover {
+    text-decoration: none;
+}
+
+.header--about {
+    min-height: 250px;
+    max-height: 550px;
+}
+
+.header--about--sed {
+    background: #4daaaf;
+}
+
+.header--about--amet {
+    background: #6ac8ae;
+}
+
+.header--about--sed button {
+    background: #5fb5ba;
+}
+
+.header--about--amet button {
+    background: #79d1b9;
+}
+
+.header--about--sed button, .header--about--amet button {
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.header--about--sed button:hover {
+    background: #4aa2a7;
+}
+
+.header--about--amet button:hover {
+    background: #59b39b;
+}
+
+.header--about--sed button:focus, .header--about--amet button:focus {
+    outline: none;
+    border: none;
+}
+
+.header--about--img img {
+    width: 900px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.contact--content {
+    width: 100%;
+    height: 320px;
+}
+
+.contact .fa, .contact .fab {
+    font-size: 23px;
+}
+.contact .fa.fa-camera {
+    color: #51a3ae;
+}
+
+.contact .fab.fa-telegram {
+    color: #6ac2a9;
+}
+
+.contact .fa.fa-envelope {
+    color: #fed688;
+}
+
+.btn {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #e1e1e1;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.btn:focus {
+    outline: none;
+    border: none;
+}
+
+.btn:hover {
+    background: #e1e1e1;
+}
+
+@media only screen and (min-width: 768px) {
+    .contact div {
+        margin: 10px 0 50px 0;
+    }
+
+    .contact div:not(:last-child) {
+        border-right: 1px solid #e1e1e1;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .contact div:not(:last-child) {
+        margin: 0 40px;
+        border-bottom: 1px solid #e1e1e1;
+    }
+}
+
+.container.carousel.slide {
+    background: #ffd586;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.container.container--card {
+    background: #ffd586;
+}
+
+.carousel--image img{
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+

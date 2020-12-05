@@ -4,24 +4,155 @@
     <title>layout</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container-fluid header">
-        <div class="container">
-            <div class="d-flex justify-content-md-between">
-                <div class="logo">
-                    <p class="logo--main">altitude</p>
-                    <p class="logo--sub">by pixelarity</p>
+    <div class="container-fluid container-fluid-header">
+        <div class="container container-header text-white">
+            <div class="logo-menu row no-gutters d-inline-flex justify-content-between align-items-center">
+                <div>
+                    <span>ALTITUDE</span>
+                    <span class="logo-sub pl-2 ml-2">BY PIXELARITY</span>
+                </div>
+                <div>
+                    <a class="text-white" href=""><span class="mr-2">MENU</span><i class="fa fa-bars" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+            <div class="row no-gutters flex-md-row flex-column-reverse">
+                <div class="col-md-5">
+                    <div class="row no-gutters">
+                        <div class="header--about header--about--sed col-md-12 col-sm-6 col-6 d-flex flex-column justify-content-center align-items-center">
+                            <h5>SED LOREM</h5>
+                            <p class="text-center ml-5 mr-5">Sed egestas, ante vulputate volutate volutpat vitae luctus metus libero aliquam</p>
+                            <button type="button">More</button>
+                        </div>
+
+                        <div class="header--about header--about--amet col-md-12 col-sm-6 col-6 d-flex flex-column justify-content-center align-items-center">
+                            <h5>AMET MAGNA</h5>
+                            <p class="text-center ml-5 mr-5">Fusce lancinia ipsum feugiat dolor sed matis tempus sed nullam</p>
+                            <button type="button">More</button>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="menu">
-                    <a href=""><label for="menu">MENU<i class="fas fa-bars"></i></label></a>
+                <div class="header--about--img col-md-7 w-100 h-auto overflow-hidden">
+                    <img src="./img/about.PNG" alt="">
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="container-fluid container-fluid-body">
+        <div class="container bg-white p-0">
+            <div class="row no-grutters m-0">
+                <div class="col-md-12 d-flex flex-column justify-content-center align-items-center">
+                    <h4 class="mt-5">LOREM IPSUM DOLOR</h4>
+                    <p>Sed egestas adipiscing</p>
+                </div>
+            </div>
+
+            <div class="contact w-100 h-100 row no-grutters m-0 flex-md-row justify-content-center align-items-center">
+                <div class="col-md-4 d-flex flex-wrap flex-column justify-content-around align-items-center">
+                    <button class="btn" type="button"><i class="fa fa-camera" aria-hidden="true"></i></button>
+                    <div class="d-flex flex-column justify-content-around align-items-center">
+                        <span class="mb-3 font-weight-bold">ULTRICES ALIQUAM</span>
+                        <span class="ml-5 text-center mr-5 mb-5">Lorem ipsum dalor sit amet nullam feught tempus</span>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex flex-column justify-content-around align-items-center">
+                    <button class="btn" type="button"><i class="fab fa-telegram" aria-hidden="true"></i></button>
+                    <div class="d-flex flex-column justify-content-around align-items-center">
+                        <span class="mb-3 font-weight-bold">ULTRICES ALIQUAM</span>
+                        <span class="ml-5 text-center mr-5 mb-5">Lorem ipsum dalor sit amet nullam feught tempus</span>
+                    </div>
+                </div>
+
+                <div class="col-md-4 d-flex flex-column justify-content-around align-items-center">
+                    <button class="btn" type="button"><i class="fa fa-envelope" aria-hidden="true"></i></button>
+                    <div class="d-flex flex-column justify-content-around align-items-center">
+                        <span class="mb-3 font-weight-bold">ULTRICES ALIQUAM</span>
+                        <span class="ml-5 text-center mr-5 mb-5">Lorem ipsum dalor sit amet nullam feught tempus</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="carouselExampleIndicators" class="container carousel slide pt-3 pb-5 d-md-block d-none" data-ride="carousel">
+            <div class="carousel-inner w-75 m-auto">
+                <div class="carousel-item active mt-5">
+                    <img src="./img/cach-chup-anh-dep-tai-da-lat-1-2306.jpeg" alt="">
+                        <div class="w-100 m-auto bg-white d-flex flex-column justify-content-center align-content-center">
+                            <h6 class="text-center m-5">MAGNA TEMPUS</h6>
+                            <p class="text-center ml-5 mr-5 mb-5 pb-3">Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los</p>
+                        </div>
+                </div>
+
+                <div class="carousel-item mt-5">
+                    <img src="./img/bacgiang_canh-dong-hoa-huong-duong-1.jpg" alt="">
+                        <div class="w-100 m-auto bg-white d-flex flex-column justify-content-center align-content-center">
+                            <h6 class="text-center m-5">MAGNA TEMPUS</h6>
+                            <p class="text-center ml-5 mr-5 mb-5 pb-5">Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los</p>
+                        </div>
+                </div>
+
+                <div class="carousel-item mt-5">
+                    <img src="./img/a3c9e0eca70105a403437485e4f435b9.jpg" alt="">
+                        <div class="w-100 m-auto bg-white d-flex flex-column justify-content-center align-content-center">
+                            <h6 class="text-center m-5">MAGNA TEMPUS</h6>
+                            <p class="text-center ml-5 mr-5 mb-5 pb-5">Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los</p>
+                        </div>
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <div class="container container--card d-md-none">
+            <div class="row no-gutters d-flex justify-content-between align-content-center">
+                <div class="col-md-8 w-75 m-auto carousel--image">
+                    <div class="card mt-5 mb-5">
+                        <img src="./img/cach-chup-anh-dep-tai-da-lat-1-2306.jpeg" alt="">
+                        <div class="d-flex flex-column justify-content-center align-content-center">
+                            <h6 class="text-center m-5">MAGNA TEMPUS</h6>
+                            <p class="text-center ml-5 mr-5 pb-5">Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los</p>
+                        </div>
+                    </div>
+
+                    <div class="card mt-5 mb-5">
+                        <img src="./img/bacgiang_canh-dong-hoa-huong-duong-1.jpg" alt="">
+                        <div class="d-flex flex-column justify-content-center align-content-center">
+                            <h6 class="text-center m-5">MAGNA TEMPUS</h6>
+                            <p class="text-center ml-5 mr-5 pb-5">Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los</p>
+                        </div>
+                    </div>
+
+                    <div class="card mt-5 mb-5">
+                        <img src="./img/a3c9e0eca70105a403437485e4f435b9.jpg" alt="">
+                        <div class="d-flex flex-column justify-content-center align-content-center">
+                            <h6 class="text-center m-5">MAGNA TEMPUS</h6>
+                            <p class="text-center ml-5 mr-5 pb-5">Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
