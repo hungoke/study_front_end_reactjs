@@ -5,17 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container-fluid container-fluid-header">
-        <div class="container container-header text-white">
-            <div class="logo-menu row no-gutters d-inline-flex justify-content-between align-items-center">
+    <div class="container-fluid container--fluid--header">
+        <div class="container container--header text-white">
+            <div class="logo--menu row no-gutters d-inline-flex justify-content-between align-items-center">
                 <div>
                     <span>ALTITUDE</span>
-                    <span class="logo-sub pl-2 ml-2">BY PIXELARITY</span>
+                    <span class="logo--sub pl-2 ml-2">BY PIXELARITY</span>
                 </div>
                 <div>
                     <a class="text-white" href=""><span class="mr-2">MENU</span><i class="fa fa-bars" aria-hidden="true"></i></a>
@@ -25,16 +24,16 @@
             <div class="row no-gutters flex-md-row flex-column-reverse">
                 <div class="col-md-5">
                     <div class="row no-gutters">
-                        <div class="header--about header--about--sed col-md-12 col-sm-6 col-6 d-flex flex-column justify-content-center align-items-center">
-                            <h5>SED LOREM</h5>
-                            <p class="text-center ml-5 mr-5">Sed egestas, ante vulputate volutate volutpat vitae luctus metus libero aliquam</p>
-                            <button type="button">More</button>
+                        <div class="header--about header--about--sed col-md-12 col-6 d-flex flex-column justify-content-center align-items-center">
+                            <h5 class="mb-4">SED LOREM</h5>
+                            <p class="text-center small ml-5 mr-5">Sed egestas, ante vulputate volutate volutpat vitae luctus metus libero aliquam</p>
+                            <button class="mt-3" type="button">More</button>
                         </div>
 
                         <div class="header--about header--about--amet col-md-12 col-sm-6 col-6 d-flex flex-column justify-content-center align-items-center">
-                            <h5>AMET MAGNA</h5>
-                            <p class="text-center ml-5 mr-5">Fusce lancinia ipsum feugiat dolor sed matis tempus sed nullam</p>
-                            <button type="button">More</button>
+                            <h5 class="mb-4">AMET MAGNA</h5>
+                            <p class="text-center small ml-5 mr-5">Fusce lancinia ipsum feugiat dolor sed matis tempus sed nullam</p>
+                            <button class="mt-3" type="button">More</button>
                         </div>
                     </div>
                 </div>
@@ -46,18 +45,18 @@
         </div>
     </div>
 
-    <div class="container-fluid container-fluid-body">
-        <div class="container bg-white p-0">
-            <div class="row no-grutters m-0">
-                <div class="col-md-12 d-flex flex-column justify-content-center align-items-center">
+    <div class="container-fluid container--fluid--body">
+        <div class="container bg-white">
+            <div class="row no-grutters">
+                <div class="col-12 d-flex flex-column justify-content-center align-items-center">
                     <h4 class="mt-5">LOREM IPSUM DOLOR</h4>
                     <p>Sed egestas adipiscing</p>
                 </div>
             </div>
 
-            <div class="contact w-100 h-100 row no-grutters m-0 flex-md-row justify-content-center align-items-center">
+            <div class="contact row no-grutters flex-md-row justify-content-center align-items-center">
                 <div class="col-md-4 d-flex flex-wrap flex-column justify-content-around align-items-center">
-                    <button class="btn" type="button"><i class="fa fa-camera" aria-hidden="true"></i></button>
+                    <button class="contact--btn" type="button"><i class="fa fa-camera" aria-hidden="true"></i></button>
                     <div class="d-flex flex-column justify-content-around align-items-center">
                         <span class="mb-3 font-weight-bold">ULTRICES ALIQUAM</span>
                         <span class="ml-5 text-center mr-5 mb-5">Lorem ipsum dalor sit amet nullam feught tempus</span>
@@ -65,7 +64,7 @@
                 </div>
 
                 <div class="col-md-4 d-flex flex-column justify-content-around align-items-center">
-                    <button class="btn" type="button"><i class="fab fa-telegram" aria-hidden="true"></i></button>
+                    <button class="contact--btn" type="button"><i class="fa fa-telegram" aria-hidden="true"></i></button>
                     <div class="d-flex flex-column justify-content-around align-items-center">
                         <span class="mb-3 font-weight-bold">ULTRICES ALIQUAM</span>
                         <span class="ml-5 text-center mr-5 mb-5">Lorem ipsum dalor sit amet nullam feught tempus</span>
@@ -73,7 +72,7 @@
                 </div>
 
                 <div class="col-md-4 d-flex flex-column justify-content-around align-items-center">
-                    <button class="btn" type="button"><i class="fa fa-envelope" aria-hidden="true"></i></button>
+                    <button class="contact--btn" type="button"><i class="fa fa-envelope" aria-hidden="true"></i></button>
                     <div class="d-flex flex-column justify-content-around align-items-center">
                         <span class="mb-3 font-weight-bold">ULTRICES ALIQUAM</span>
                         <span class="ml-5 text-center mr-5 mb-5">Lorem ipsum dalor sit amet nullam feught tempus</span>
@@ -82,30 +81,31 @@
             </div>
         </div>
 
+<!-- Carousel -->
         <div id="carouselExampleIndicators" class="container carousel slide pt-3 pb-5 d-md-block d-none" data-ride="carousel">
             <div class="carousel-inner w-75 m-auto">
                 <div class="carousel-item active mt-5">
                     <img src="./img/cach-chup-anh-dep-tai-da-lat-1-2306.jpeg" alt="">
-                        <div class="w-100 m-auto bg-white d-flex flex-column justify-content-center align-content-center">
-                            <h6 class="text-center m-5">MAGNA TEMPUS</h6>
-                            <p class="text-center ml-5 mr-5 mb-5 pb-3">Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los</p>
-                        </div>
+                    <div class="w-100 m-auto bg-white d-flex flex-column justify-content-center align-content-center">
+                        <h6 class="text-center m-5">MAGNA TEMPUS</h6>
+                        <p class="text-center ml-5 mr-5 mb-5 pb-3">Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los</p>
+                    </div>
                 </div>
 
                 <div class="carousel-item mt-5">
                     <img src="./img/bacgiang_canh-dong-hoa-huong-duong-1.jpg" alt="">
-                        <div class="w-100 m-auto bg-white d-flex flex-column justify-content-center align-content-center">
-                            <h6 class="text-center m-5">MAGNA TEMPUS</h6>
-                            <p class="text-center ml-5 mr-5 mb-5 pb-5">Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los</p>
-                        </div>
+                    <div class="w-100 m-auto bg-white d-flex flex-column justify-content-center align-content-center">
+                        <h6 class="text-center m-5">MAGNA TEMPUS</h6>
+                        <p class="text-center ml-5 mr-5 mb-5 pb-3">Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los</p>
+                    </div>
                 </div>
 
                 <div class="carousel-item mt-5">
                     <img src="./img/a3c9e0eca70105a403437485e4f435b9.jpg" alt="">
-                        <div class="w-100 m-auto bg-white d-flex flex-column justify-content-center align-content-center">
-                            <h6 class="text-center m-5">MAGNA TEMPUS</h6>
-                            <p class="text-center ml-5 mr-5 mb-5 pb-5">Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los</p>
-                        </div>
+                    <div class="w-100 m-auto bg-white d-flex flex-column justify-content-center align-content-center">
+                        <h6 class="text-center m-5">MAGNA TEMPUS</h6>
+                        <p class="text-center ml-5 mr-5 mb-5 pb-3">Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los Adipising ulamcorper semper ut amet ac tisu los</p>
+                    </div>
                 </div>
             </div>
 
@@ -120,9 +120,10 @@
             </a>
         </div>
 
+<!-- Card -->
         <div class="container container--card d-md-none">
             <div class="row no-gutters d-flex justify-content-between align-content-center">
-                <div class="col-md-8 w-75 m-auto carousel--image">
+                <div class="carousel--image ml-5 mr-5">
                     <div class="card mt-5 mb-5">
                         <img src="./img/cach-chup-anh-dep-tai-da-lat-1-2306.jpeg" alt="">
                         <div class="d-flex flex-column justify-content-center align-content-center">
@@ -148,6 +149,92 @@
                     </div>
                 </div>
             </div>
+        </div>
+<!-- end code carousel card -->
+
+        <div class="container pb-5 bg-white">
+            <div class="row no-gutters d-flex justify-content-between align-content-center">
+                <div class="col-md-12 d-flex flex-column justify-content-center align-items-center">
+                    <h4 class="mt-5">SET TEMPUS LOREM IPSUM DOLOR</h4>
+                    <p>lorem isuace egestas adipiscing</p>
+                </div>
+            </div>
+
+            <div class="container--story mt-4 mb-4 ml-5 mr-5">
+                <div class="row no-gutters d-flex flex-column-reverse flex-md-row justify-content-between align-content-center">
+                    <div class="container--story--text col-12 col-md-5 d-flex flex-column justify-content-center align-items-center">
+                        <h5 class="text-center mb-4">ALIQUAM</h5>
+                        <p class="text-center ml-5 mr-5">Morbi in sem quais dui pacerat ellentesque odio nisi euismod in haretra a ultraicies in diam ed rcuc consequat lorem ipsum dotor Sed egestas, ante vulputate volutate volutpat vitae luctus metus libero aliquam</p>
+                        <button class="" type="button">More</button>
+                    </div>
+                    <div class="col-12 col-md-7"><img src="./img/mountain.PNG" alt=""></div>
+                </div>
+
+                <div class="row no-gutters d-flex flex-row justify-content-between align-content-center">
+                    <div class="col-12 col-md-5"><img src="./img/people.PNG" alt=""></div>
+                    <div class="container--story--text col-12 col-md-7 d-flex flex-column justify-content-center align-items-center">
+                        <div class="col-12 d-flex flex-column justify-content-center align-items-center">
+                            <h5 class="text-center mb-4">PELLENTESQUE FERMENTUM</h5>
+                            <p class="text-center ml-5 mr-5">ead egetas ante et vulpupat eros pede semper est, vitae lutus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quí, gravida id, est. Sed lectus Praesent elementum lorem ipsum blandid amet velelit Sed egestas, ante vulputate volutate volutpat vitae luctus metus libero aliquam</p>
+                            <button class="" type="button">More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid container--fluid--footer">
+        <div class="container container--search pt-5 pb-5 d-flex flex-column justify-content-between align-items-center">
+            <p class="text-white">GET NOTIFIED</p>
+            <P>Lorem ipsum dolor siter amet nullma feugiat neum</P>
+            <div class="search--bar d-inline-flex flex-row justify-items-center">
+                <input id="search" type="text" placeholder="Email address">
+                <label for="search">SIGN UP</label>
+            </div>
+        </div>
+
+        <div class="container pb-5">
+            <div class="footer row no-gutters p-5">
+                <div class="col-md-3 col-6 pt-3 pb-3 d-flex flex-column align-items-center">
+                    <p>MAGNA</p>
+                    <p>Aliquam tempus</p>
+                    <p>Ultrecies nul</p>
+                    <p>Gravida ultricies</p>
+                    <p>Commodo etiam</p>
+                </div>
+
+                <div class="col-md-3 col-6 pt-3 pb-3 d-flex flex-column align-items-center">
+                    <p>FEUGIAT</p>
+                    <p>Morbi sem Lorem</p>
+                    <p>Praes sed dapi</p>
+                    <p>Sed adipis nullam</p>
+                    <p>Fus dolor lacinia</p>
+                </div>
+
+                <div class="col-md-3 col-6 pt-3 pb-3 d-flex flex-column align-items-center">
+                    <p>TEMPUS</p>
+                    <p>Donecnec etiam</p>
+                    <p>Aapibus sedun</p>
+                    <p>Namnulla tempus</p>
+                    <p>Morbi set amet</p>
+                </div>
+
+                <div class="col-md-3 col-6 pt-3 pb-3 d-flex flex-column align-items-center">
+                    <p>ALIQUAM</p>
+                    <p>Lorem prasent dia</p>
+                    <p>Nellentes ípum</p>
+                    <p>Diamsed arcu dolor</p>
+                    <p>Sit amet cursus</p>
+                </div>
+            </div>
+
+            <div class="row no-gutters d-flex flex-row justify-content-around align-content-center">
+                <span><i class="fa fa-home" aria-hidden="true"></i> 1234 Fictional Street #5432 Nashville. TN 00000-0000</span>
+                <span><i class="fa fa-phone" aria-hidden="true"></i> (000) 000-0000</span>
+                <span><i class="fa fa-envelope" aria-hidden="true"></i> info@untiitled.tld</span>
+            </div>
+            <p class="text-center"><i class="fa fa-copyright" aria-hidden="true"></i>Unititled. All rights reserved.</p>
         </div>
     </div>
 
