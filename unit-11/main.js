@@ -37,3 +37,29 @@ const deleteFalseValue = array => {
 
   return result
 }
+
+//exercise 4
+function pairToObject (array) {
+  let result = {}
+  array.forEach(i => {
+    result[i[0]] = i[1]
+  })
+
+  return result
+}
+
+// exercise 5
+function sortArray (array) {
+  array.sort((a, b) => {
+    return a-b
+  })
+
+  return array
+}
+
+// exercise 6
+const checkObject = input => {
+  return (typeof input == 'object' && input !== null) ? true : false
+}
+
+// exercise 7
