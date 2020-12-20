@@ -37,3 +37,41 @@ const deleteFalseValue = array => {
 
   return result
 }
+
+//exercise 4
+function pairToObject (array) {
+  const result = {}
+  array.forEach(item => {
+    const [key, value] = item
+    result[key] = value
+   // result[item[0]] = item[1]
+  })
+
+  return result
+}
+
+// exercise 5
+function sortArray (array) {
+  array.sort((a, b) => {
+    return a-b
+  })
+
+  return array
+}
+
+// exercise 6
+const checkObject = input => {
+  return (typeof input == 'object' && input !== null) ? true : false
+}
+
+// exercise 7
+const pickData = (array, obj) => {
+  obj = {...obj}
+  for (let key in obj) {
+    if (obj.hasOwnProperty(key)) {
+      if (array.indexOf(key) !== -1) {
+        delete obj[key]
+      }
+    }
+  }
+}
