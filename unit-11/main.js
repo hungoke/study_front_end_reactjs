@@ -40,11 +40,13 @@ const deleteFalseValue = array => {
 
 //exercise 4
 function pairToObject (array) {
+  let result = {}
+  array.forEach(i => {
+    result[i[0]] = i[1]
   const result = {}
   array.forEach(item => {
     const [key, value] = item
     result[key] = value
-   // result[item[0]] = item[1]
   })
 
   return result
