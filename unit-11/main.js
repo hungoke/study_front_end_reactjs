@@ -43,6 +43,10 @@ function pairToObject (array) {
   let result = {}
   array.forEach(i => {
     result[i[0]] = i[1]
+  const result = {}
+  array.forEach(item => {
+    const [key, value] = item
+    result[key] = value
   })
 
   return result
@@ -63,3 +67,13 @@ const checkObject = input => {
 }
 
 // exercise 7
+const pickData = (array, obj) => {
+  obj = {...obj}
+  for (let key in obj) {
+    if (obj.hasOwnProperty(key)) {
+      if (array.indexOf(key) !== -1) {
+        delete obj[key]
+      }
+    }
+  }
+}
