@@ -12,7 +12,7 @@ function compareArray (array1, array2) {
 
 // exercise 2 (code in stackOverflow and i don't understand)
 function flatten(arr) {
-  return arr.reduce((flat, toFlatten) => flat.concat(Array.isArray(toFlatten) ? flatten(toFlatten) : toFlatten), [])
+  return arr.flat(Infinity)
 }
 
 // exercise 3
