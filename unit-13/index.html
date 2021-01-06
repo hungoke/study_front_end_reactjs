@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./main.js"></script>
+</head>
+<body>
+    <div>
+        <h3>Exercise 1</h3>
+        <div onmouseover="console.log('hover lúc ' + getCurrentTime())" onmouseout="console.log('out hover lúc ' + getCurrentTime())">
+            hover or out hover
+        </div>
+    </div>
+
+    <div>
+        <h3>Exercise 2</h3>
+        <form>
+            <input onkeyup="checkAccount(event)" type="text" placeholder="hãy nhập tài khoản"/>
+        </form>
+    </div>
+
+    <div>
+        <h3>Exercise 3</h3>
+        <form>
+            <input onkeyup="checkAmount(event)" type="text" placeholder="hãy nhập số tiền"/>
+        </form>
+    </div>
+
+    <div>
+        <h3>exercise 4</h3>
+        <div ondblclick="alert('Duoble click')">Duoble click</div>
+    </div>
+
+    <div>
+        <h3>Exercise 5</h3>
+        <p onmouseup="getSelectedText()">Cộng hòa xã hội chủ nghĩa Việt Nam</p>
+    </div>
+
+    <div>
+        <h3>Exercise 6</h3>
+        <select id="fruit" onchange="getFruitName()">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="coconut">Coconut</option>
+        </select>
+    </div>
+</body>
+</html>
